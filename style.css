@@ -1,8 +1,8 @@
 * { 
-  border: red solid;
   text-align: center;
   font-family: "light italic";
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -37,6 +37,7 @@ body {
     }
   }
 }
+
 .player {
   display: flex;
   flex-direction: column;
@@ -49,6 +50,7 @@ body {
     font-weight: bold;
     color: #1f2937;
   }
+
   .media{
     display: flex;
     align-items: center;
@@ -63,12 +65,15 @@ body {
       height: auto;
     }
   }
+
   .bio {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    border: #1f2937 solid;
 
     > li {
+      border: #1f2937 solid;
       color: #3882f6;
       flex: 1;
       list-style: none;
@@ -76,8 +81,6 @@ body {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-
     }
-  
   }
 }
